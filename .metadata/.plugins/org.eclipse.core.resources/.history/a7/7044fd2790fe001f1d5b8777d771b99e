@@ -1,0 +1,30 @@
+package produtos;
+
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Initial product data
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the product data:");
+		System.out.printf("Name: ");
+		String name = sc.next();
+		System.out.printf("Price: ");
+		double price = sc.nextDouble();
+		System.out.printf("Quantity in stock: ");
+		int quantity = sc.nextInt();
+		
+		// Instantiate object
+		
+		Product product = new Product();
+		product.name = name;
+		product.price = price;
+		product.quantity = quantity;
+		
+	}
+
+}

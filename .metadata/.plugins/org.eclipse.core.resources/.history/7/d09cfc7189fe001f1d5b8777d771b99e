@@ -1,0 +1,24 @@
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Triangle;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Triangle x, y;
+		x = new Triangle();
+		y = new Triangle();
+		
+		System.out.println("Insira as medidas do triângulo X: ");
+		x.a = sc.nextDouble()
+		
+		
+		
+		
+	}
+
+}

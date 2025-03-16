@@ -1,0 +1,13 @@
+package exercicio;
+
+public class Conta {
+	
+	int numeroDaConta;
+	String titular;
+	
+	// Construtor padrão
+	public Conta() {
+		
+	}
+
+}
